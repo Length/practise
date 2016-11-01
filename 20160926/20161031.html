@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>流程控制语句</title>
+	<script type="text/javascript">
+
+		//二选一(if...else)
+		/*var mypen = "black";
+		if (mypen == "black") {
+			document.write("笔试黑色的,所以我要买!");
+		}else{
+			document.write("不是黑色我不要");
+		}*/
+
+		//多种选择(if...else嵌套语句)
+		/*var zhaohong = 99;	//zhaohong表示赵红年龄
+		if (zhaohong < 44) {
+			document.write("赵红是青年人");
+		} else if (zhaohong <= 59) {
+			document.write("赵红是中年人");
+		} else if (zhaohong <= 89) {
+			document.write("赵红是老年人");
+		} else {
+			document.write("赵红是长寿老人");
+		}*/
+
+		//多重选择(switch语句)
+		/*var myweek = 2;	//myweek表示星期几变量
+		switch(myweek){
+			case 1:
+			case 2:
+				document.write("周一周二学习理论知识");
+				break;
+			case 3:
+			case 4:
+				document.write("周三周四到企业实践");
+				break;
+			case 5:
+				document.write("周五总结经验");
+				break;
+			case 6:
+			case 7:
+				document.write("周六周日休息和娱乐");
+		}*/
+
+		//for循环(重复)
+		/*var ball = 6;
+		for (ball = 6; ball >= 0; ball--) {
+			document.write("箱子里还有" + ball + "个球" + "<br/>");
+		}*/
+
+		//while语句(反复)
+		/*var num = 1;
+		while (num <= 5) {
+			document.write("数字: " + num + "<br/>");
+			num = num + 1;
+		}*/
+
+		//do...while循环
+		/*'use strict';
+		var num = 1;
+		do{
+			document.write(`数字: ${num}<br/>`);
+			num++;
+		}
+		while(num <= 6);*/
+
+		//对象
+		/*'use strict';
+		var person = {
+			name: 'Bob',
+			age: 20,
+			tags: ['js','html','mobile','web'],
+			city: 'beijing',
+			hasCar: false,
+			zipCode: null,
+		};
+		document.write(person.name);*/
+		/*alert(`多行
+		字符串
+		测试`);*/
+		//alert('这是一个\n字符串\nES6标准');
+
+		//continue继续循环与break终止循环
+		/*'use strict';
+		var mynum = [70,80,66,90,50,100,89];
+		for (var i = 0; i < mynum.length; i++) {
+			if (mynum[i] < 60) {
+				document.write("等着参加补考吧你!" + "<br/>");
+				continue;	//可以改为break
+			}
+			document.write(`你的成绩是: ${mynum[i]} <br/>`);
+		}*/
+
+		
+
+	</script>
+</head>
+<body>
+</body>
+</html>
