@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>函数</title>
+	<script type="text/javascript">
+		
+		//函数调用
+		/*function tcon(){
+			alert("恭喜你学会调用函数了!");
+		}*/
+
+		//函数传参
+		/*function add(x,y,z){
+			"use strict";
+			var sum = x + y + z;
+			document.write(`x,y,z的和是: ${sum} <br/>`);
+		}
+
+		add(1,2,3);
+		add(5,2,9);*/
+
+		//返回值函数
+		function add(x,y){
+		"use strict";
+			var sum = x * y;
+			return sum;
+		}
+		var req1 = add(2,3);
+		var req2 = add(5,6);
+		var add2 = req1 + req2;
+		document.write(`req1的值是: ${req1} <br/>`);
+		document.write(`req2的值是: ${req2} <br/>`);
+		// document.write("add2的值是: " + (req1 + req2));
+		document.write(`add2的值是: ${req1 + req2}`);
+
+
+	</script>
+</head>
+<body>
+	<!-- <button onclick="tcon()">点我</button> -->
+</body>
+</html>
